@@ -969,7 +969,87 @@ span.find_groups_details_chip_label {
 
 /* media queries mobile design */
 @media(max-width: 768px) {
-  
+  .wrapper-course:has(.tutors_listing_page) {
+    padding: 16px;
+  }
+
+  .action-panel .ratings.lessons {
+    display: none;
+  }
+
+  .action-btns {
+    display: none !important;
+  }
+
+  .teacherSection .action-panel {
+    display: block;
+    min-width: auto;
+    margin-left: auto;
+  }
+
+  .teacherSection .teacher-avatar {
+    height: 80px;
+    width: 80px;
+  }
+
+  .teacherSection .teacher-avatar img {
+    min-width: auto;
+    object-fit: auto;
+    height: 80px;
+    width: 80px;
+  }
+
+  .teacher-avatar-box {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    height: 12px;
+    width: 12px;
+    right: 5px;
+    bottom: 5px;
+    top: unset;
+  }
+
+  .filters_box {
+    padding: 0;
+    margin: 0;
+    width: auto;
+  }
+
+  .clamp-4 {
+    -webkit-line-clamp: 3;
+  }
+
+  .meta-list li:nth-child(2) {
+    display: none;
+  }
+
+  .teacherSection .teacher-card {
+    display: flex;
+    background: var(--bg);
+    border-radius: 0;
+    border-inline: none;
+    border-block: 1px solid #0000001F;
+    padding: 12px 16px;
+    margin-left: -16px;
+    width: calc(100vw + 32px);
+    height: auto;
+    box-shadow: none
+  }
+
+  #page-wrapper #page nav.rui-topbar-wrapper,
+  #page-wrapper #page> :nth-child(2),
+  #page-wrapper #page:has(.tutors_listing_page) .rui-mobile-nav {
+    display: none;
+  }
+
+
+  #page-wrapper #page:has(.tutors_listing_page) {
+    padding: 0;
+  }
+
+  .dynamic_section {
+    margin-top: 16px;
+  }
 }
 
 /* media queries mobile design */

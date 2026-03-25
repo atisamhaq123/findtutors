@@ -16,8 +16,8 @@
       </div>
     </div>
   <div class="max-w-[1280px] mx-auto">
-    <h2 style="margin-bottom: 4px; color: var(--dark-text); font-size: 24px; font-weight: 600">Online English tutors & teachers for private lessons</h2>
-    <p style= "margin-bottom: 40px;  color: var(--dark-text)">Looking for an online English tutor? Latingles is the leading online language learning platform worldwide. You can choose from 28566 English teachers with an average</p>
+    <h2 class="d-none d-md-block" style="margin-bottom: 4px; color: var(--dark-text); font-size: 24px; font-weight: 600">Online English tutors & teachers for private lessons</h2>
+    <p class="d-none d-md-block" style= "margin-bottom: 40px;  color: var(--dark-text)">Looking for an online English tutor? Latingles is the leading online language learning platform worldwide. You can choose from 28566 English teachers with an average</p>
   </div>
   <div class="filters_box">
     <div class="max-w-[1280px] mx-auto">
@@ -449,12 +449,12 @@
   </div>
 
   <div class="dynamic_section max-w-[1280px] mx-auto">
-    <div class="d-flex justify-between items-center">
+    <div class="d-md-flex justify-between items-center d-none">
       <h2 style="color: var(--dark-text);font-size: 24px; font-weight: 600">500 English teachers available</h2>
     </div>
 
     <!-- Teacher Section -->
-    <div id="teachers_listing" class="d-flex"  style="margin-top: 24px;">
+    <div id="teachers_listing" class="d-md-flex teachers_listing"  style="margin-top: 24px;">
       <!-- fist -->
       <div>
         <section class="teacherSection">
@@ -463,7 +463,7 @@
               <img src="img/images/josh.jpg" alt="Josh" />
               <div class="teacher-avatar-box green"></div>
             </div>
-            <div class="teacher-details">
+            <div class="teacher-details d-flex flex-column">
               <div class="teacher-header">
                 <a href="../tutorprofile/my_lessons_tutor_profile.php">
                   <h3 style="height: 36px;
@@ -477,9 +477,9 @@
                 <li><img src="img/translation.svg"><span> English (Native)</span></li>
               </ul>
               <div id="teacher_additional_1" class="clamp-4">
-                <span class="bio" id="teacher_card_bio_1">Hi! I’m Daniela, an experienced English teacher with over a decade of helping students master the language. I’m passionate about creating engaging lessons tailored to each learner’s needs. 
+                <span class="bio" id="teacher_card_bio_1">Hi1! I’m Daniela, an experienced English teacher with over a decade of helping students master the language. I’m passionate about creating engaging lessons tailored to each learner’s needs. 
                 </span>
-                <div class="">
+                <div class="show-more-content d-none d-md-block">
                   <!-- <span class="bio" >Hi! I’m Daniela, an experienced English teacher with over a decade of helping students master the language. I’m passionate about creating engaging lessons tailored to each learner’s needs. 
                   </span> -->
                   <h4 class="mt-3 font-semibold text-[20px]">Why Choose English Group Classes (Bilingual)</h4>
@@ -511,17 +511,17 @@
                   </div>
                 </div>
               </div>
-              <span class="see-more" data-target="1" id="teacher_card_see_1">See More...</span></p>
+              <span class="see-more d-none d-md-block" data-target="1" id="teacher_card_see_1">See More...</span></p>
             </div>
             <div class="action-panel">
               <div class="stats">
                 <div class="ratings"><div style="display: flex; gap: 4px; align-items: center;"><img src="img/starr.svg"> 4.7 </div><span class="small-text">17 reviews</span></div>
-                <div class="ratings">858<span class="small-text">lessons</small></div>
+                <div class="ratings lessons">858<span class="small-text">lessons</small></div>
                 <div class="ratings">US$8<span class="small-text">50-min lesson</small></div>
               </div>
-              <button class="btn-primary" id="openTrialModal">Book trial lesson US$0</button>
-              <button class="btn-outline d-none subscribe-modal-open-teacher">Subscribe</button>
-              <button class="btn-outline" id="send_message_btn">Send a Message</button>
+              <button class="btn-primary action-btns" id="openTrialModal">Book trial lesson US$0</button>
+              <button class="btn-outline action-btns d-none subscribe-modal-open-teacher">Subscribe</button>
+              <button class="btn-outline action-btns" id="send_message_btn">Send a Message</button>
             </div>
             <!-- absolute elements-->
             <button class="favorite">
@@ -539,7 +539,7 @@
               <img src="img/images/josh.jpg" alt="Josh" />
               <div class="teacher-avatar-box gray"></div>
             </div>
-            <div class="teacher-details">
+            <div class="teacher-details d-flex flex-column">
               <div class="teacher-header">
                 <a href="../tutorprofile/my_lessons_tutor_profile.php">
                   <h3 style="height: 36px;
@@ -555,7 +555,7 @@
               <div id="teacher_additional_1" class="clamp-4">
                 <span class="bio" id="teacher_card_bio_1">Hi! I’m Daniela, an experienced English teacher with over a decade of helping students master the language. I’m passionate about creating engaging lessons tailored to each learner’s needs. 
                 </span>
-                <div class="">
+                <div class="show-more-content d-none d-md-block">
                   
                   <h4 class="mt-3 font-semibold text-[20px]">Why Choose English Group Classes (Bilingual)</h4>
                   <div class="find_groups_details_available_review_card mt-3 p-3">
@@ -586,16 +586,16 @@
                   </div>
                 </div>
               </div>
-              <span class="see-more" data-target="1" id="teacher_card_see_1">See More...</span></p>
+              <span class="see-more d-none d-md-block" data-target="1" id="teacher_card_see_1">See More...</span></p>
             </div>
             <div class="action-panel">
               <div class="stats">
                 <div class="ratings"><div style="display: flex; gap: 4px; align-items: center;"><img src="img/starr.svg"> 4.7 </div><span class="small-text">17 reviews</span></div>
-                <div class="ratings">858<span class="small-text">lessons</small></div>
+                <div class="ratings lessons">858<span class="small-text">lessons</small></div>
                 <div class="ratings">US$8<span class="small-text">50-min lesson</small></div>
               </div>
-              <button class="btn-primary subscribe-modal-open-teacher" >Subscribe</button>
-              <button class="btn-outline" id="send_message_btn">Send a Message</button>
+              <button class="btn-primary subscribe-modal-open-teacher action-btns" >Subscribe</button>
+              <button class="btn-outline action-btns" id="send_message_btn">Send a Message</button>
             </div>
             
             <button class="favorite">
@@ -613,7 +613,7 @@
               <img src="img/images/josh.jpg" alt="Josh" />
               <div class="teacher-avatar-box gray"></div>
             </div>
-            <div class="teacher-details">
+            <div class="teacher-details d-flex flex-column">
               <div class="teacher-header">
                 <a href="../tutorprofile/my_lessons_tutor_profile.php">
                   <h3 style="height: 36px;
@@ -629,7 +629,7 @@
               <div id="teacher_additional_1" class="clamp-4">
                 <span class="bio" id="teacher_card_bio_1">Hi! I’m Daniela, an experienced English teacher with over a decade of helping students master the language. I’m passionate about creating engaging lessons tailored to each learner’s needs. 
                 </span>
-                <div class="">
+                <div class="show-more-content d-none d-md-block">
                   
                   <h4 class="mt-3 font-semibold text-[20px]">Why Choose English Group Classes (Bilingual)</h4>
                   <div class="find_groups_details_available_review_card mt-3 p-3">
@@ -660,17 +660,17 @@
                   </div>
                 </div>
               </div>
-              <span class="see-more" data-target="1" id="teacher_card_see_1">See More...</span></p>
+              <span class="see-more d-none d-md-block" data-target="1" id="teacher_card_see_1">See More...</span></p>
             </div>
             <div class="action-panel">
               <div class="stats">
                 <div class="ratings"><div style="display: flex; gap: 4px; align-items: center;"><img src="img/starr.svg"> 4.7 </div><span class="small-text">17 reviews</span></div>
-                <div class="ratings">858<span class="small-text">lessons</small></div>
+                <div class="ratings lessons">858<span class="small-text">lessons</small></div>
                 <div class="ratings">US$8<span class="small-text">50-min lesson</small></div>
               </div>
-              <button class="btn-primary" id="openTrialModal">Book trial lesson US$0</button>
-              <button class="btn-outline subscribe-modal-open-teacher">Subscribe</button>
-              <button class="btn-outline" id="send_message_btn">Send a Message</button>
+              <button class="btn-primary action-btns" id="openTrialModal">Book trial lesson US$0</button>
+              <button class="btn-outline action-btns subscribe-modal-open-teacher">Subscribe</button>
+              <button class="btn-outline action-btns" id="send_message_btn">Send a Message</button>
             </div>
             
             <button class="favorite">
@@ -684,7 +684,7 @@
     
       </div>
       <!-- 2nd -->
-      <div class="schedule-panel" id="schedule-panel">
+      <div class="schedule-panel d-none d-md-flex" id="schedule-panel">
             <div class="schedule-preview" style="background-image: url('https://avatars.preply.com/i/video_thumbnails/1674076538640-PreplyThumbnail.png');"><span class="play-icon">
               <img id="video-pay-button" src="img/play_icon.png">
             </span>
