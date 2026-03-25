@@ -522,12 +522,12 @@
                       src="img/badge.svg"></h3>
                 </a>
               </div>
-              <div class="stats d-flex d-md-none">
+              <div class="stats d-flex d-md-none justify-content-between">
+                <div class="ratings align-items-start">US$8<span class="small-text">50-min lesson</small></div>
                 <div class="ratings">
                   <div style="display: flex; gap: 4px; align-items: center;"><img src="img/starr.svg"> 4.7 </div><span
                     class="small-text">17 reviews</span>
                 </div>
-                <div class="ratings">US$8<span class="small-text">50-min lesson</small></div>
               </div>
               <ul class="meta-list">
                 <li><img src="img/hatt.svg"><span style="margin-left: -2px;">English</span></li>
@@ -639,12 +639,12 @@
                       src="img/badge.svg"></h3>
                 </a>
               </div>
-              <div class="stats d-flex d-md-none">
-                <div class="ratings">
+              <div class="stats d-flex d-md-none justify-content-between">
+                <div class="ratings align-items-start">US$8<span class="small-text">50-min lesson</small></div>
+                <div class="ratings align-items-start">
                   <div style="display: flex; gap: 4px; align-items: center;"><img src="img/starr.svg"> 4.7 </div><span
                     class="small-text">17 reviews</span>
                 </div>
-                <div class="ratings">US$8<span class="small-text">50-min lesson</small></div>
               </div>
               <ul class="meta-list">
                 <li><img src="img/hatt.svg"><span style="margin-left: -2px;">English</span></li>
@@ -754,12 +754,11 @@
                       src="img/badge.svg"></h3>
                 </a>
               </div>
-              <div class="stats d-flex d-md-none">
-                <div class="ratings">
-                  <div style="display: flex; gap: 4px; align-items: center;"><img src="img/starr.svg"> 4.7 </div><span
-                    class="small-text">17 reviews</span>
+              <div class="stats d-flex d-md-none justify-content-between">
+                <div class="ratings align-items-start">US$8<span class="small-text">50-min lesson</span></div>
+                <div class="ratings align-items-start">
+                  <div style="display: flex; gap: 4px; align-items: center;"><img src="img/starr.svg"> 4.7 </div><span class="small-text">17 reviews</span>
                 </div>
-                <div class="ratings">US$8<span class="small-text">50-min lesson</small></div>
               </div>
               <ul class="meta-list">
                 <li><img src="img/hatt.svg"><span style="margin-left: -2px;">English</span></li>
