@@ -975,6 +975,10 @@ span.find_groups_details_chip_label {
     padding: 16px;
   }
 
+  .editmode-switch-form {
+    display: none !important;
+  }
+
   .tabs_container .nav-tabs {
     background: var(--gray-light);
     border-radius: 8px;
@@ -1118,7 +1122,7 @@ span.find_groups_details_chip_label {
     gap: 6px;
   }
 
-  .bf-icon img{
+  .bf-icon img {
     margin: auto;
   }
 
