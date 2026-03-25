@@ -1118,6 +1118,10 @@ span.find_groups_details_chip_label {
     gap: 6px;
   }
 
+  .bf-icon img{
+    margin: auto;
+  }
+
   .bf-title {
     font-weight: 500;
     font-size: 12px;
