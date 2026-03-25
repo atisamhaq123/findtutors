@@ -973,10 +973,6 @@ span.find_groups_details_chip_label {
     padding: 16px;
   }
 
-  .action-panel .ratings.lessons {
-    display: none;
-  }
-
   .action-btns {
     display: none !important;
   }
@@ -1020,7 +1016,7 @@ span.find_groups_details_chip_label {
     -webkit-line-clamp: 3;
   }
 
-  .meta-list li:nth-child(2) {
+  .meta-list li:nth-child(1) {
     display: none;
   }
 
@@ -1050,6 +1046,9 @@ span.find_groups_details_chip_label {
 
   .dynamic_section {
     margin-top: 16px;
+  }
+  .meta-list {
+    order: 3;
   }
 }
 
