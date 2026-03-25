@@ -757,7 +757,8 @@
               <div class="stats d-flex d-md-none justify-content-between">
                 <div class="ratings align-items-start">US$8<span class="small-text">50-min lesson</span></div>
                 <div class="ratings align-items-start">
-                  <div style="display: flex; gap: 4px; align-items: center;"><img src="img/starr.svg"> 4.7 </div><span class="small-text">17 reviews</span>
+                  <div style="display: flex; gap: 4px; align-items: center;"><img src="img/starr.svg"> 4.7 </div><span
+                    class="small-text">17 reviews</span>
                 </div>
               </div>
               <ul class="meta-list">
@@ -898,6 +899,45 @@
     <!-- pagination -->
   </div>
   <!-- dynamic section -->
+  <!-- footer -->
+  <div class="footer_navigation d-flex d-md-none">
+    <div class="bf-item bf-home active">
+      <a href="/course/index.php">
+        <div class="bf-icon">
+          <img src="img/home.svg" alt="home" class="mb-1">
+        </div>
+        <div class="bf-title">home</div>
+      </a>
+    </div>
+
+    <div class="bf-item bf-search">
+      <a href="/local/findtutors/explore_tutors.php">
+        <div class="bf-icon">
+          <img src="img/search_footer.svg" alt="search" class="active mb-1">
+        </div>
+        <div class="bf-title active">Search</div>
+      </a>
+    </div>
+
+    <div class="bf-item bf-notification">
+      <a href="#">
+        <div class="bf-icon">
+          <img src="img/message.svg" alt="message" class="mb-1">
+        </div>
+        <div class="bf-title">Messages</div>
+      </a>
+    </div>
+
+    <div class="bf-item bf-profile">
+      <a href="#">
+        <div class="bf-icon">
+          <img src="img/calendar.svg" alt="Schedule" class="mb-1">
+        </div>
+        <div class="bf-title">Schedule</div>
+      </a>
+    </div>
+  </div>
+  <!-- footer -->
 </div>
 
 <?php require_once('book_trail_lessons.php'); ?>
