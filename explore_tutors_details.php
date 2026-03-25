@@ -23,7 +23,32 @@
       tutor? Latingles is the leading online language learning platform worldwide. You can choose from 28566 English
       teachers with an average</p>
   </div>
-  <div class="filters_box">
+  <div class="d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center" data-toggle="modal" data-target="#learnModal">
+            <h2 class="heading_level_1 mt-0 mb-0">English</h2>
+            <svg class="mt-n1 ml-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.4632 15.6225C12.1935 15.8423 11.8065 15.8423 11.5368 15.6225L6.23548 11.3014C5.70088 10.8657 6.009 10 6.69868 10L17.3013 10C17.991 10 18.2991 10.8657 17.7645 11.3014L12.4632 15.6225Z" fill="black"></path>
+            </svg>
+        </div>
+        <div class="gray_box fav_list" data-toggle="modal" data-target="#favModal">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.3834 8.69727C21.4297 8.69727 22.4406 9.12059 23.2311 9.91602C24.0998 10.7903 24.6084 12.0439 24.6002 13.3564C24.5937 14.3821 24.1825 15.5708 23.2525 16.9014C22.5343 17.9289 21.5204 19.0231 20.2203 20.1484C18.4053 21.7194 16.6113 22.8548 15.9986 23.2285C15.3821 22.8551 13.5762 21.7186 11.7545 20.1475C10.4499 19.0223 9.43526 17.9288 8.72031 16.9023C7.7939 15.5722 7.3936 14.3855 7.4 13.3623C7.40804 12.0935 7.86171 10.9204 8.65586 10.0479C9.46041 9.16395 10.5105 8.69727 11.6168 8.69727C13.0274 8.69733 14.3581 9.48864 15.1402 10.8076L15.9996 12.2578L16.86 10.8076C17.6421 9.48863 18.9728 8.69728 20.3834 8.69727Z" stroke="black" stroke-width="2"></path>
+            </svg>
+
+        </div>
+    </div>
+  <div class="tabs_container mt-4">
+    
+    <ul class="nav nav-tabs nav-fill w-100 d-flex d-md-none">
+      <li class="nav-item">
+        <a class="nav-link w-100 active" href="#find_tutors">Find Tutors</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link w-100" href="#find_groups">Find Groups</a>
+      </li>
+    </ul>
+  </div>
+  <div class="filters_box d-none d-md-block">
     <div class="max-w-[1280px] mx-auto">
       <div class="filters mb-3">
         <!-- 1: Class taught in -->
